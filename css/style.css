@@ -1,0 +1,189 @@
+:root{
+--bgfast:#F5FCFF;
+--bg-sec:#FFFFFF;
+--thard-color:#5E3BEE;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-sec);
+    font-family: "Roboto", sans-serif;
+}
+
+/* front style */
+
+
+h1{
+    font-size: 74;
+    font-weight: bold;
+}
+
+h2{
+  font-size: 64;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 32;
+  font-weight: bold;
+}
+/* navbar */
+  .logo{
+    width: 187px;
+    height: 40px;
+  }
+  .navbar {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+  .btn-outline-dark {
+    border-radius: 0;
+  }
+  .btn-outline-dark:focus {
+    box-shadow: none;
+  }
+
+
+/* heros */
+
+  .heros{
+    background-color: var(--bgfast);
+  }
+
+  .heros-text-button-gap{
+    gap: 32px;
+  }
+
+
+   
+  /* skil */
+  .skil{
+    background-color: var(--bg-sec);
+  }
+
+
+  .product-chain{
+    width: 53.33px;
+    height: 53.33px;
+    padding: 10px;
+    background-color: var(--bg-sec);
+  }
+
+  .border-bg{
+    background-color: var(--bgfast);
+    min-height: 280px;
+    
+  }
+
+ 
+
+  /* about */
+
+  .about{
+    background-color: var(--bg-sec);
+  }
+
+  .about-img{
+      width: 100%;
+  }
+
+  /* portfolio */
+  .Portfolio{
+    background-color: var(--bg-sec);
+
+  }
+
+  .btn-color{
+    background-color: #E62872;
+    color: #FFFFFF;
+  }
+
+  .btn-icon{
+    width: 32px;
+    height: 32px;
+  }
+  
+  .underline{
+
+     text-decoration: underline;
+     text-decoration-color: var(--thard-color);
+  }
+
+  .portflio-btn-icon{
+    width: 16px;
+    height: 16px;
+  }
+
+/* clint */
+
+.clint{
+  background-color: var(--bgfast);
+}
+
+
+
+/* footer */
+.footer{
+  background-color: var(--bgfast);
+}
+
+.footer-logo{
+  width: 32px;
+  height: 32px;
+}
+
+.footer-logo-1{
+  width: 13px;
+  height: 24px;
+}
+
+
+.footer-logo-2{
+  width: 24px;
+  height: 24px;
+}
+  /* responsiv */
+
+
+  @media screen and (max-width: 768px) {
+    .btn-outline-dark {
+      border: none;
+      padding: 0;
+      outline: none;
+    }
+  
+    .btn-outline-dark:hover {
+      background: none;
+      color: gray;
+    }
+    /* front */
+    h1{
+      font-size: 45;
+      font-weight: bold;
+    }
+  
+    h2{
+    font-size: 30;
+    font-weight: bold;
+    }
+  
+    h3{
+    font-size: 17;
+    font-weight: bold;
+    }
+
+    
+    .border-bg{
+      background-color: var(--bgfast);
+      min-height: 250px;
+      
+    }
+}
